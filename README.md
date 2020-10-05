@@ -24,6 +24,10 @@ Added the '2> /dev/null' line to my backup.sh script to get rid of the stderr me
 Added in the two functions that display the total files and directories that will be included in the backup by the backup.sh script. 
 Created the comparison.sh script which utilized the numeric and string comparators. 
 Created the if_else.sh script which implements simple conditional statements into a bash script. 
-
-
+Added conditional statements to the backup.sh script that tell the user whether or not the backup completed or failed based off of testing if $src_files is equal to $arch_files.
+Added the two functions that return the number of archived files and directories in the compressed backup file. 
+Added the new variable declarations which hold the number of source and destination files and directories. 
+Added the conditional statement at the beginning of the backup.sh script which sets $user to the current user if the positional parameter $1 holds any value. 
+Added the for statement after the backup function runs. 
+The for statement executes the backup function for each user directory supplied as an argument. 
 
