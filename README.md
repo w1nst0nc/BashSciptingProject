@@ -18,4 +18,7 @@ After that command whenever I tried 'ls -1 /tmp/myhome_directory.tar.gz' or 'rm 
 I was able to create the 'welcome.sh' script and got the following output: "Welcome back winst! Today is Sunday, which is the best day of the entire week! Your Bash Shell version is: 4.4.23(1)-release. Enjoy!"
 Had issues trying to create the backup.sh script. I believe the issue has to do with the tar -czf command. 
 After creating the 'backup.sh' script and testing it with './backup.sh' it returned "tar: Removing leading '/' from member names"
+Update: After running the 'backup.sh' script using './backup.sh' I left my PC alone for about an hour and when I came back I had an error from windows that my C:/ drive was full with temporary files having 111gb in it. 
+Added the '2> /dev/null' line to my backup.sh script to get rid of the stderr message. 
+Added in the two functions that display the total files and directories that will be included in the backup by the backup.sh script. 
 
