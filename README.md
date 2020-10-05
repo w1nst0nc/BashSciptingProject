@@ -16,4 +16,6 @@ Under 'Simple Backup Bash Shell Script' I had trouble following the tutorials de
 I was able to enter the first command 'tar -czf /tmp/myhome_directory.tar.gz /c/Users/Winst/' which would return tar: Removing leading '/' from member names.
 After that command whenever I tried 'ls -1 /tmp/myhome_directory.tar.gz' or 'rm /tmp/myhome_directory.tar.gz' I would get "Cannot open: Device or resource busy."
 I was able to create the 'welcome.sh' script and got the following output: "Welcome back winst! Today is Sunday, which is the best day of the entire week! Your Bash Shell version is: 4.4.23(1)-release. Enjoy!"
+Had issues trying to create the backup.sh script. I believe the issue has to do with the tar -czf command. 
+After creating the 'backup.sh' script and testing it with './backup.sh' it returned "tar: Removing leading '/' from member names"
 
