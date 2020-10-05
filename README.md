@@ -19,6 +19,11 @@ I was able to create the 'welcome.sh' script and got the following output: "Welc
 Had issues trying to create the backup.sh script. I believe the issue has to do with the tar -czf command. 
 After creating the 'backup.sh' script and testing it with './backup.sh' it returned "tar: Removing leading '/' from member names"
 Update: After running the 'backup.sh' script using './backup.sh' I left my PC alone for about an hour and when I came back I had an error from windows that my C:/ drive was full with temporary files having 111gb in it. 
+Was able to locate the specific backup file in path C:\Users\winst\AppData\Local\Temp so the backup.sh script is operating properly.
 Added the '2> /dev/null' line to my backup.sh script to get rid of the stderr message. 
 Added in the two functions that display the total files and directories that will be included in the backup by the backup.sh script. 
+Created the comparison.sh script which utilized the numeric and string comparators. 
+Created the if_else.sh script which implements simple conditional statements into a bash script. 
+
+
 
