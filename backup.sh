@@ -1,3 +1,13 @@
+#For the while block I could not find any intiated "while" blocks
+#Something interesting about the "while" loop is the something similar to the if else statements where it waits for the correct answer in order to act upon a saved command  
+//////////////////
+#The purpose for the "for" block is to make a clear indication that the correct directory is specific and does not get lost 
+#An interesting feature for this block is that it creates a sense of security depending on direction you're looking to go 
+///////////////////
+#The purpose of the "Until" loop is to execute any given command as long as the statement given is false.
+#The brackets for the "Until" loop are to contain any given info 
+/////////////////////
+
 #!/bin/bash
 
 function backup
