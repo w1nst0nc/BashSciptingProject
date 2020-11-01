@@ -1,3 +1,7 @@
+#The purpose of this block is to demonstrate the affecs of creating an if else scenerio 
+#An interesting part of this code is the command "echo" which gives the same effect as "S.out" does for java. 
+
+
 #!/bin/bash
 
 num_a=400
