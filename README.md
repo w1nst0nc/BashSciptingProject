@@ -31,3 +31,10 @@ Added the conditional statement at the beginning of the backup.sh script which s
 Added the for statement after the backup function runs. 
 The for statement executes the backup function for each user directory supplied as an argument. 
 
+
+
+
+Code Review (Jered Contreras)
+
+Positive of the code 
+- in the code I found it to be very well organized and structured. Doing so, it was easy for me to find any coding blocks I may have needed to review for project 3. An improvement I would suggest to have implemented is to add a "While" loop. Also, if there was a "While" I could not find one initiated so then I would suggest an easier way to make it identifiable for future reference. The code was indented properly, it was also very detailed in the README making it clear the author knew what he was doing the entire time. 
